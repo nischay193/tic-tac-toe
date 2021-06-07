@@ -104,7 +104,7 @@
     border-color: lightgray;
 }
 
-.result-message {
+#result-message {
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -118,15 +118,15 @@
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.9);
 }
-.result-message.show{
+#result-message.show{
     display: flex;
 }
-.result-message .message{
+#result-message #message{
     font-size: 3rem;
     color: white;
     font-family: sans-serif;
 }
-.result-message .btn{
+#result-message .btn{
     border-radius: 5%;
     background-color: white;
     border:none;
@@ -135,7 +135,7 @@
     font-size: 2rem;
     margin: 100px;
 }
-.result-message .btn:hover{
+#result-message .btn:hover{
     color:white;
     background-color: green;
 }
