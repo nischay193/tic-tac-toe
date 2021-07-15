@@ -2,7 +2,7 @@
 
 The classic Tic-Tac-Toe game.
 
-## The game has two modes
+# The game has two modes
  - 2P Mode
  - AI Mode
  
